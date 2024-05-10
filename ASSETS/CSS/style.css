@@ -21,7 +21,7 @@ a{
 #banner{
     min-height: 100vh;
     background: linear-gradient(to right, hsla(300, 10%, 88%, 0.5), rgba(95, 88, 88, 0.1)),
-    url(https://cdn.instructables.com/ORIG/F0E/CD8L/ITKIWSJM/F0ECD8LITKIWSJM.jpg?width=2100);
+    url(https://i.pinimg.com/originals/a2/80/e4/a280e4709df849347a3ffef89947f338.png);
     background-size: cover;
 }   
 .navbar{
@@ -102,16 +102,15 @@ section {
 }
 
 #cta {
-    position: relative;
+    position: relative ;
     opacity: 0.90;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: linear-gradient(to right, hsla(50, 1%, 50%, 0.856) ,rgba(253, 248, 248, 0.315)), 
-    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7NVORcuKFVNxxxMcrhAn0V2lCb1eAJPCQrQ&s);
-    min-height: 70vh;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment:fixed !important;
+    min-height: 70vh !important; 
+    background-image: linear-gradient(to right, hsla(300, 10%, 88%, 0.5), rgba(88, 89, 95, 0.1)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKz3AKpLK11L902EZ822wB-CHPZcv4IyvRQzlKOxe9eQ&s');   background-size: cover;
 }
+
  #reviews {
     background-color: #ffffff;
 }
@@ -214,4 +213,12 @@ section {
 .btn-outline-light {
     border-color: #F2B03B !important;
     color:#F2B03B
+}
+@media screen and (max-width:767px){
+    section{
+        padding: 60px 20px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
 }
